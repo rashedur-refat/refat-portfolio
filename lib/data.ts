@@ -1,3 +1,6 @@
+import React from "react";
+import { CgWorkAlt } from "react-icons/cg";
+
 export const links = [
 	{
 		name: "Home",
@@ -41,4 +44,15 @@ export const skillsData = [
 	"MongoDB",
 	"Express",
 	"Framer Motion",
+] as const;
+
+export const experiencesData = [
+	{
+		title: "Software Developer",
+		location: "Hyper Systems Ltd.",
+		description:
+			"I started as a front-end developer here and later involved into full stack development. I stack included React, Next.js, Vue, Nuxt.js, Node.js, TypeScript, PostgreSQL, MongoDB, Redis and more in this company.",
+		icon: React.createElement(CgWorkAlt),
+		date: "2022 - Present",
+	},
 ] as const;
