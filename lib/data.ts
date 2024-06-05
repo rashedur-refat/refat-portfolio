@@ -56,3 +56,27 @@ export const experiencesData = [
 		date: "2022 - Present",
 	},
 ] as const;
+
+export const projectsData = [
+	{
+		title: "Sovereign Apex",
+		description:
+			"A company portfolio project built with Next.js, Sanity Headless CMS and Tailwind CSS.",
+		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+		imageUrl: "/apex.png",
+	},
+	{
+		title: "Remote Monitoring System",
+		description:
+			"I worked as a full-stack developer on this project for 1.5 years. It's a remote monitoring as well as access control system management software.",
+		tags: ["Vue", "Nuxt.js", "PostgreSQL", "Tailwind", "Node.js"],
+		imageUrl: "/rms-site.png",
+	},
+	{
+		title: "Offline Meter Portal",
+		description:
+			"A web portal for monitoring Offline Meter Transaction data. It has features like filtering, sorting and pagination",
+		tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+		imageUrl: "/offline-meter.png",
+	},
+] as const;
