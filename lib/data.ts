@@ -79,4 +79,11 @@ export const projectsData = [
 		tags: ["React", "TypeScript", "Next.js", "Tailwind"],
 		imageUrl: "/offline-meter.png",
 	},
+	{
+		title: "Vessel Management System",
+		description:
+			"A web application for monitoring vessels location. It has a map view for the vessels.",
+		tags: ["Vue", "Nuxt.js", "Tailwind", "Node.js", "MongoDB"],
+		imageUrl: "/biwta-tracking.png",
+	},
 ] as const;
